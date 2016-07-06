@@ -25,7 +25,14 @@
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
   # +++your code here+++
-  return
+  #count = int(input('How many donuts?:'))
+  if count < 10:
+    numofdonuts = count
+  else:
+    numofdonuts = 'many'
+  return 'Number of Donuts: ' + str(numofdonuts)
+
+
 
 
 # B. both_ends
